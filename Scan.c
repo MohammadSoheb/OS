@@ -89,7 +89,7 @@ void RequestAllocationMovingTowordsGreaterFisrt(int Request[],int head,int n){
     for(int i=0;i<n+1;i++){
         printf("%d ",all[i]);
     }
-    int Thm=((Request[n-1]-1)-0)+((Request[n-1]-1)-head);
+    int Thm=(Request[n-1]-0)+(Request[n-1]-head);
     printf("\nthe total head movements is =%d",Thm);
 
 } 
